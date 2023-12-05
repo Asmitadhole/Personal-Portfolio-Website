@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(2, 2, 27);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    line-height: 1.6;
+}
+header {
+    background-color: rgb(50, 50, 155);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    padding: 2rem;
+}
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.1rem;
+}
+main hr {
+    border: 0;
+    background: rgb(154, 154, 211);
+    height: 2px;
+    margin: 40px 84px;
+}
+.left {
+    font-size: 1.8rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7vh 0;
+}
+.firstSection>div {
+    width: 40%;
+}
+.leftSection {
+    font-size: 2.8rem;
+}
+.leftSection .buttons{
+    padding: 45px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: rgb(29, 11, 29);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightSection img {
+    width: 100%;
+    height: auto;
+}
+.purple {
+    color: rgb(163, 109, 214);
+}
+.text-gray {
+    color: gray;
+}
+#element {
+    color: rgb(163, 109, 214);
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 75vh;
+}
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+.secondSection .Hline {
+    background: white;
+    width: 80vw;
+    height: 0.1vh;
+    margin: auto;
+}
+.secondSection .vertical {
+    height: 16vh;
+    width: 0.1vw;
+    background-color: white;
+}
+.secondSection .vertical h3 {
+    width: 80vw;
+    margin: 0 1vw;
+}
+.secondSection .vertical .des {
+    width: 80vw;
+    margin: 0 3vw;
+}
+.thirdSection {
+    display: flex;
+    justify-content: space-around;
+}
+.thirdSection .leftSection{
+    font-size: 1rem;
+}
+.thirdSection .leftSection .Hline{
+    height: 0.1vh;
+    margin: 2vh 10vw;
+}
+.thirdSection .leftSection h1{
+    font-size: 1.9rem;
+}
+.thirdSection .vertical {
+    height: 50vh;
+    width: 0.3vh;
+    background-color: white;
+}
+.thirdSection .rightSection{
+    font-size: 1rem;
+}
+.thirdSection .rightSection .Hline{
+    height: 0.1vh;
+    margin: auto;
+}
+.thirdSection .rightSection h1{
+    font-size: 1.9rem;
+}
+.thirdSection .rightSection .Hline ul img{
+    height: 5vh;
+    width: 14vw; 
+}
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 58vh;
+}
+.fourthSection h1 {
+    font-size: 1.9rem;
+}
+.fourthSection .Hline{
+    background: white;
+    width: 80vw;
+    height: 0.1vh;
+    margin: auto;
+}
+.fourthSection .Hline .vertical{
+    height: 42vh;
+    width: 0.1vw;
+    background-color: white;
+}
+.fourthSection .vertical h3 {
+    width: 80vw;
+    margin: 0 1vw;
+}
+.fourthSection .vertical .des {
+    width: 80vw;
+    margin: 0 3vw;
+}
+.fifthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 90vh;
+}
+.fifthSection h1 {
+    font-size: 1.9rem;
+}
+.fifthSection .Hline{
+    background: white;
+    width: 80vw;
+    height: 0.1vh;
+    margin: auto;
+}
+.fifthSection .Hline .vertical{
+    height: 18vh;
+    width: 0.1vw;
+    background-color: white;
+}
+.fifthSection .vertical h3 {
+    width: 80vw;
+    margin: 0 1vw;
+}
+.fifthSection .vertical .des {
+    width: 80vw;
+    margin: 0 3vw;
+}
+footer{
+    background-color: rgb(0, 0, 8);
+}
+.footer{
+    display: flex;
+    padding: 3vh 15vw;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 28vw;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 2vh 0;
+}
+@media screen and (max-width: 300px) {
+    .left{
+        font-size: 0.8rem;
+    }
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .leftSection {
+        font-size: 1.5rem;
+    }        
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }        
+    nav ul {
+        margin-top: 10px;
+    }       
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}        
